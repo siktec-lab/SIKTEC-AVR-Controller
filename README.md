@@ -2,8 +2,10 @@
 Example projects for using and programming the SIKTEC Arduino Controller -
 
 #### Description
-Originally it was created as part of several libraries and examples of the AVR Controller Shield by SIKTEC - [Arduino based Controller Shield](http://siktec.net "Arduino based Controller Shield").
-This Library is as small as it gets and very well documented - It allows an easy integration of a rotary encoder in an "interrupt way".
+Those examples were created as part of several libraries and examples of the AVR Controller Shield by SIKTEC - [Arduino based Controller Shield](http://siktec.net "Arduino based Controller Shield").
+SIKTEC AVR Controller is a DIY Shield which extend most Arduino boards to easily integrate several common components which are widely used in any Arduino project who requires human interface.
+
+Our goal was to create a simple well designed shield which integrates widely used components in the best way. The shield enable makers to focus on what really matter – since most of the projects require those capabilities, makers “waste” there time on assembling and integrating common parts on breadboards and proto boards. With this shield you can easily avoid all the hassle and focus on your idea. The shield is fully backed by our code base with simple and advanced examples – No need to google and search every where for the correct drivers and hack your way to make it work. All the code for this shield is well documented and can be easily extended and modified to fit your needs.
 
 #### Table of Contents:
 - [Shield Features](#shield-features)
@@ -21,8 +23,8 @@ This Library is as small as it gets and very well documented - It allows an easy
 
 ## Included Examples:
  - **Image Reader Example**: Turns the arduino boards into an image reader which reads all images from a MicroSD into a menu controlled by the rotary encoder. This example is great to learn how to glue all the capabilities together:
-    - Building a menu system.
-    - Dynamically reading files from an SD card.
+	- Building a menu system.
+	- Dynamically reading files from an SD card.
 	- Drawing graphics on a TFT.
 	- Using Interrupts.
 	- Drawing Bitmaps.
