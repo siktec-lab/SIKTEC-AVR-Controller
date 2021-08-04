@@ -1,14 +1,15 @@
 /******************************************************************************/
 // Created by: Shlomo Hassid.
-// Release Version : 1.0.3
+// Release Version : 1.0.6
 // Creation Date: 2021-04-27
 // Copyright 2021, SIKTEC.
 /******************************************************************************/
 /*****************************      Changelog       ****************************
 version:
+    1.0.6
+        -> bumped to match library version
     1.0.3
         -> Handles and show messages when SD card is not detected or no images found.
-        -> 
     1.0.2
         -> initial release - Example to showcase siktec Arduino Controller board.
         -> Based on Adafruit GFX + ImageReader.
@@ -45,7 +46,7 @@ version:
 // SIKtec::Rotary - a generic lib to easily interface with a rotary encoder - using interrupts.
 #include <SIKTEC_Rotary.h> 
 // Image in progmem to draw on TFT
-#include "sik_logo.h"    
+#include "sik_logo_20_33.h"   
 // SIKtec::SdExplorer - a Wrapper for doing some operations on the SD card.
 #include "siksd.h"     
  

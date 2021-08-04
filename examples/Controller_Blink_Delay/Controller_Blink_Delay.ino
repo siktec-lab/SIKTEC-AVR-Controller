@@ -1,11 +1,13 @@
 /******************************************************************************/
 // Created by: Shlomo Hassid.
-// Release Version : 1.0.3
+// Release Version : 1.0.6
 // Creation Date: 2021-04-27
 // Copyright 2021, SIKTEC.
 /******************************************************************************/
 /*****************************      Changelog       ****************************
 version:
+    1.0.6
+        -> Bumped to match library version
     1.0.3
         -> Bumped after changes were made to other examples.
     1.0.2
@@ -40,7 +42,7 @@ version:
 // SIKtec::Rotary - a generic lib to easily interface with a rotary encoder - using interrupts.
 #include <SIKTEC_Rotary.h> 
 // Image in progmem to draw on TFT
-#include "sik_logo.h"    
+#include "sik_logo_100_33.h"    
 
 
 /***************************************************************************/
