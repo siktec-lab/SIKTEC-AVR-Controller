@@ -1,5 +1,6 @@
 # SIKTEC-AVR-Controller
-Example projects for using and programming the SIKTEC Arduino Controller -
+Example (UNO & NANO) projects for using and programming the SIKTEC Arduino Controller - The Controller will work with other boards also but you will need to set 
+The correct pins and hook the spi pins to the correct Hardware SPI pin on the used boards.
 
 #### Description
 Those examples were created as part of several libraries and examples of the AVR Controller Shield by SIKTEC - [Arduino based Controller Shield](http://siktec.net "Arduino based Controller Shield").
